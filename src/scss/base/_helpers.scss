@@ -1,0 +1,101 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+
+/**
+ * Clear inner floats
+ */
+%clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+.clearfix {
+  @extend %clearfix;
+}
+
+/**
+ *List reset
+ */
+%listreset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/**
+ * Hide text while making it readable for screen readers
+ * 1. Needed in WebKit-based browsers because of an implementation bug;
+ *    See: https://code.google.com/p/chromium/issues/detail?id=457146
+ */
+%hide-text {
+  overflow: hidden;
+  padding: 0; /* 1 */
+  text-indent: 101%;
+  white-space: nowrap;
+}
+
+.hide-text {
+  @extend %hide-text;
+}
+
+/**
+ * Hide element while making it readable for screen readers
+ * Shamelessly borrowed from HTML5Boilerplate:
+ * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+ */
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+// transition
+%transition {
+  transition: all 0.3s ease-in-out;
+}
+
+// justify nav
+%justify {
+  text-align: justify;
+  font-size: 1px;
+  line-height: 0px;
+  > * {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+  }
+  &:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+/// * Helper class to truncate and add ellipsis to a string too long for it to fit
+/// * on a single line.
+/// * 1. Prevent content from wrapping, forcing it on a single line.
+/// * 2. Add ellipsis at the end of the line.
+.ellipsis {
+  white-space: nowrap; /* 1 */
+  text-overflow: ellipsis; /* 2 */
+  overflow: hidden;
+}
+
+
+// hide scrollbar
+%scroll-hide {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

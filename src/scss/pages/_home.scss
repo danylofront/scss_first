@@ -1,0 +1,685 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&display=swap');
+* {
+    background-color: #eaeaea;
+}
+
+.flexbox_mainblock {
+    display: flex;
+    justify-content: center;
+}
+
+.img_main_cake {
+    margin-top: 70px;
+    box-shadow:-1px 0px 8px 0px rgba(50, 50, 50, 0.75);
+}
+
+.logo_main {
+    margin-left: 114px;
+    margin-top: -378px;
+}
+
+.txt_mainpage {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #921026;
+    font-weight: 500;
+    font-family: "Playfair Display";
+    margin-left: 113px;
+    margin-top: -263px;
+}
+
+.txt_cake {
+    width: 329px;
+    height: 108px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+    margin-left: 115px;
+}
+
+.button_mainblock {
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+    border: 1px solid grey;
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    margin-left: 115px;
+    margin-top: 19px;
+}
+
+.flexbox_second {
+    display: flex;
+    justify-content: center;
+}
+
+.second_block {
+    width: 1128px;
+    height: 373px;
+    background-color: white;
+    margin-top: 104px;
+    box-shadow:-1px 0px 8px 0px rgba(50, 50, 50, 0.75);
+}
+
+.img_mainblock_1 {
+    margin-top: -337px;
+    margin-left: 109px;
+}
+
+.crop {
+    margin-top: -356px;
+    margin-left: 470px;
+    width: 328px;
+    height: 215px;
+    overflow: hidden;
+}
+
+.crop img {
+    height: 300px;
+    // margin: -75px 0 0 -100px;
+}
+
+.img_mainblock_3 {
+    margin-top: -215px;
+    margin-left: 833px;
+}
+
+.mainblock_text_img1 {
+    font-size: 18px;
+    margin-left: 109px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+}
+
+.mainblock_icon_1 {
+    // background-color: white;
+    margin-top: -15px;
+    margin-left: 109px;
+    // white-space: nowrap;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #555555;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+.mainblock_text_img2 {
+    margin-left: 470px;
+    margin-top: -50px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+}
+
+.mainblock_icon_2 {
+    margin-left: 470px;
+    margin-top: -15px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #555555;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+.mainblock_text_img3 {
+    margin-left: 833px;
+    margin-top: -47px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+}
+
+.mainblock_icon_3 {
+    margin-left: 833px;
+    margin-top: -9px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #555555;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+.box_shadow_3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.img_thirdblock {
+    // margin-top: 111px;
+    // margin-left: 69px;
+    box-shadow:-1px 0px 8px 0px rgba(50, 50, 50, 0.75);
+}
+
+.mainblock_3 {
+    // margin-top: -441px;
+    // margin-left: 618px;
+    width: 579px;
+    height: 441px;
+    background: white;
+    box-shadow:-1px 0px 8px 0px rgba(50, 50, 50, 0.75);
+}
+
+.text_thirdblock {
+    font-size: 32px;
+letter-spacing: 1px;
+color: #055555;
+font-weight: 900;
+font-family: "Playfair Display";
+}
+
+.text_block_main3 {
+    margin-top: -13em;
+    margin-left: 21em;
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: #055555;
+    font-weight: 900;
+    font-family: "Playfair Display";
+}
+
+.icons_3_block {
+    margin-top: -1em;
+    margin-left: 42em;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #555555;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+.scroll_text {
+    margin-left: 42em;
+    width: 496px;
+    height: 273px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+    overflow-y: scroll;
+}
+
+.scroll_text b {
+    background-color: white;
+    font-weight: bold;
+}
+
+.button_recipe {
+    margin-left: 18em;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+    border: 1px solid grey;
+    background-color: white;
+    width: 120px;
+    height: 30px;
+}
+
+.block_2_er {
+    margin-left: 679px;
+    margin-top: -519px;
+    background-color: white;
+    width: 518px;
+    height: 518px;
+    box-shadow: -1px 0px 8px 0px rgb(50 50 50 / 75%);
+}
+
+
+.error_block {
+    width: 518px;
+    height: 518px;
+    margin-left: 66px;
+    margin-top: 7em;
+    box-shadow: -1px 0px 8px 0px rgb(50 50 50 / 75%);
+}
+
+
+.line_error {
+    margin-top: -28em;
+    margin-left: 6em;
+    width: 440px;
+    height: 2px;
+    background-color: #555555;
+}
+
+.error_404 {
+    width: 0px;
+    margin-top: -1.5em;
+    margin-left: 5em;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-family: "Josefin Sans";
+}
+
+.sorry_text {
+    width: 0px;
+    margin-top: 3.8em;
+    margin-left: 288px;
+    font-size: 34px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Josefin Sans";
+}
+
+.page_find {
+    margin-left: 16.6em;
+    margin-top: -2em;
+    width: 133px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #a9a9a9;
+    font-weight: 900;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+
+.icon_sad {
+    background: none;
+    width: 20px;
+    font-size: 28px;
+    margin-top: -0.3em;
+    margin-left: 11.29em;
+}
+
+.back_error_block {
+    margin-left: 21.8em;
+    margin-top: 7em;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+    border: 1px solid grey;
+    background-color: white;
+    width: 120px;
+    height: 30px;
+}
+
+.line_error_2 {
+    margin-top: -24.39em;
+    margin-left: 44em;
+    width: 440px;
+    height: 2px;
+    background-color: #555555;
+}
+
+.author_txt {
+    margin-left: 35.4em;
+    margin-top: -1.5em;
+    width: 0px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-family: "Josefin Sans";
+}
+
+.round_pic {
+    border-radius: 100px;
+    border: none;
+}
+
+.author_ph {
+    width: 117px;
+    margin-top: 1em;
+    margin-left: 44em;
+    background: white;
+}
+
+.karengray {
+    background: white;
+    width: 134px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Josefin Sans";
+    margin-left: 36em;
+    margin-top: -4em;
+}
+
+.karengray p {
+    background-color: white;
+}
+
+.uk {
+    width: 98px;
+    margin-left: 54em;
+    margin-top: -1em;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+}
+
+.uk p {
+    background-color: white;
+}
+
+.mul_icons {
+    width: 75px;
+    margin-top: -1em;
+    margin-left: 54em;
+}
+
+.mul_icons p, i {
+    background-color: white;
+}
+
+.line_karen {
+    margin-top: 0em;
+    margin-left: 54em;
+}
+
+.txt_about_lemon {
+    width: 133px;
+    margin-left: 43.2em;
+    margin-top: 0em;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-family: "Josefin Sans";
+}
+
+.txt_about_lemon p {
+    background-color: white;
+}
+
+.text_info {
+    background-color: white;
+    white-space: nowrap;
+    margin-left: 61.8em;
+    width: 286px;
+    height: 184px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Josefin Sans";
+}
+
+.text_info p {
+    background-color: white;
+}
+
+.sign_karen {
+    width: 162px;
+    margin-top: -2em;
+    margin-left: 63em;
+}
+.flexbox_hard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8em;
+}
+
+.block_1_flex {
+    width: 289px;
+    height: 349px;
+    background-color: white;
+}
+
+.block_2_flex {
+    display: flex;
+    justify-content: space-around;
+    width: 290px;
+    height: 427px;
+    background-color: white;
+}
+
+.block_2_flex p {
+    margin-top: 6em;
+    height: 20px;
+    background-color: white;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+}
+
+.block_3_flex {
+    width: 290px;
+    height: 349px;
+}
+
+.flexbox_hard_second {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+
+.block_4_flex {
+    width: 290px;
+    height: 471px;
+    background-color: white;
+    margin-top: -5em;
+}
+
+.block_5_flex {
+    width: 290px;
+    height: 160px;
+    background-color: white;
+}
+
+.block_6_flex {
+    width: 290px;
+    height: 430px;
+    background-color: white;
+    margin-top: -5em;
+}
+
+.flexbox_hard_third {
+    display: flex;
+    justify-content: center;
+}
+
+.block_7_flex {
+    width: 290px;
+    height: 367px;
+    background-color: white;
+    margin-top: -11em;
+}
+
+.text_chi {
+    margin-left: 5em;
+    margin-top: -47em;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #055555;
+    font-weight: 900;
+    font-family: "Playfair Display";
+}
+
+.line_flex1 {
+    margin-left: 5.3em;
+    margin-top: -1em;
+}
+
+.facephoto {
+    margin-left: 6em;
+    border-radius: 100px;
+}
+
+.text_recipeof {
+    margin-top: -3em;
+    margin-left: 11em;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+}
+
+.text_recipeof b {
+    font-weight: bold;
+    background-color: white;
+}
+
+.icons_flexbox {
+    margin-left: 14.7em;
+    margin-top: -1em;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #555555;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+.img_flexblock {
+    margin-top: 0em;
+    margin-left: 4.1em;
+    width: 289px;
+    height: 204px;
+}
+
+.txt_flex_block {
+    margin-left: 29em;
+    margin-top: -10em;
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: #921026;
+    font-weight: 900;
+    font-family: "Playfair Display";
+}
+
+.txt_vanilla {
+    margin-left: 42.2em;
+    margin-top: 0em;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Josefin Sans";
+}
+
+.text_bid_co {
+    margin-left: 58.1em;
+    margin-top: -1em;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #222222;
+    font-family: "Josefin Sans";
+}
+
+.button_recipe_get {
+    font-size: 12px;
+    margin-left: 77.6em;
+    margin-top: 0em;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+    border: 1px solid grey;
+    background-color: white;
+    width: 120px;
+    height: 30px;
+}
+
+.icons_photoblock {
+    margin-left: 88em;
+    margin-top: -1.79em;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #555555;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+.text_block_3 {
+    margin-left: 26em;
+    margin-top: -11em;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-family: "Josefin Sans";
+}
+
+.line_3block {
+    margin-top: -1em;
+    margin-left: 31.6em;
+}
+
+.icons_3rd_block {
+    margin-top: -3.6em;
+    margin-left: 42em;
+}
+
+.ph_3_block {
+    width: 70px;
+    margin-top: 2em;
+    margin-left: 32em;
+}
+
+.text_topping {
+    margin-top: -4em;
+    margin-left: 50em;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Josefin Sans";
+}
+
+.text_topping b {
+    background-color: white;
+    font-weight: bold;
+}
+
+.lorem_recipe {
+    margin-left: 37.5em;
+    margin-top: -0.4em;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Josefin Sans";
+}
+
+.img_block_3 {
+    margin-top: 1em;
+    margin-left: 32em;
+    width: 70px;
+}
+
+.text_topping1 {
+    margin-top: -4em;
+    margin-left: 50em;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Josefin Sans";
+}
+
+.button_recipe1 {
+    font-size: 12px;
+    margin-left: 53.6em;
+    margin-top: 2em;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+    border: 1px solid grey;
+    background-color: white;
+    width: 120px;
+    height: 30px;
+}

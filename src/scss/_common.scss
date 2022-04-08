@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles for layouts
+// -----------------------------------------------------------------------------
+#wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  --padding-x: 15px;
+  --maxWidthContainer: calc(#{$maxWidthContainer}px + (var(--padding-x) * 2));
+
+  width: 100%;
+  max-width: var(--maxWidthContainer);
+  padding: 0 var(--padding-x);
+  margin: 0 auto;
+
+  @include media(">=phone") {
+    --padding-x: 20px;
+  }
+
+  @include media('>=tablet', "<desktop") {
+    --padding-x: 30px;
+  }
+
+  @include media(">=desktop") {
+    --padding-x: 15px;
+  }
+}

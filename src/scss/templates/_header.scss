@@ -1,0 +1,39 @@
+* {
+    background-color: #eaeaea;
+}
+
+.mainlogo_header {
+    text-align: center;
+    margin-top: 98px;
+}
+
+.flexbox_header {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.mainblock_header {
+    background-color: white;
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow:-1px 0px 8px 0px rgba(50, 50, 50, 0.75);
+}
+
+.mainblock_header img {
+    width: 96px;
+    height: 41px;
+    margin-top: 32px;
+}
+
+.mainblock_header a {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+    text-decoration: none;
+    margin-top: 43px;
+}

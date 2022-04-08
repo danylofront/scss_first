@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  font-size: $rem-base;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**
+ * Max-height for all elements
+ */
+* {
+  max-height: 1000000px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+/**
+ * Basic styles for body
+ */
+body {
+  color: $base-text-color;
+  background: $base-background-color;
+  font: #{$font-size-base}/#{$line-height-base} $base-font-family;
+  min-width: $base-min-width;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**
+ * Basic styles for links
+ */
+a {
+  color: $black;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+/**
+ * Adaptive images
+ */
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+

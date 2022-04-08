@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+// Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/config',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+// Vendors
+@import
+  'vendors/include-media',
+  'vendors/normalize';
+
+// Libs
+@import
+  "components/hamburgers/hamburgers.scss",
+  "../../node_modules/swiper/swiper-bundle.min.css";
+
+// Base
+@import
+  'base/base',
+  'base/forms',
+  'base/fonts',
+  'base/typography',
+  'base/helpers';
+
+// Components
+@import
+  'components/button';
+
+// Common
+@import 'common';
+
+// Templates
+@import
+  'templates/header',
+  'templates/footer';
+
+// Page styles
+@import
+  'pages/home';

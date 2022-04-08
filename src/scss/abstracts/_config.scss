@@ -1,0 +1,39 @@
+// -----------------------------------------------------------------------------
+// This file contains config settings
+// -----------------------------------------------------------------------------
+// breakpoints
+$breakpoints: (
+	'small-phone': 320px,
+	'phone': 375px,
+	'big-phone': 414px,
+	'small-tablet': 576px,
+	'tablet': 768px,
+	'desktop': 1024px,
+	'widescreen': 1200px,
+	'laptop': 1360px,
+	'makbook': 1440px,
+	'bigscreen': 1600px,
+	'full-hd': 1900px,
+	'2k': 2560px,
+) !default;
+
+// keywords
+$media-expressions: (
+        'screen': 'screen',
+        'print': 'print',
+        'handheld': 'handheld',
+        'landscape': '(orientation: landscape)',
+        'portrait': '(orientation: portrait)',
+        'retina2x': '(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)',
+        'retina3x': '(-webkit-min-device-pixel-ratio: 2.5), (min-resolution: 240dpi)'
+);
+
+// z-index list layers
+// z-index list layers
+$z-layers: (
+	header: 10,
+	opener: 20,
+	nav-drop: 30,
+	overlay: 100,
+	modal: 200
+);
